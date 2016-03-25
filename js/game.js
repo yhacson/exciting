@@ -80,7 +80,7 @@ var Update = function()
 			{
 				var bot = bots[i];
 				var num= Math.random() * 10;
-				if(num > 5)
+				if(num > 3)
 				{
 					bot.x = Math.min(bot.x + 10, 600);
 					bot.Step();
