@@ -165,7 +165,7 @@ addEventListener("keydown", function (e)
 {
 	if(isStart == 1)
 	{
-		if(e.keyCode == 69 && keysDown[e.keyCode] != true)
+		if(e.keyCode == 69)
 		{
 			p.x = Math.min(p.x + 10, 600);
 			score++;
@@ -196,7 +196,6 @@ addEventListener("keydown", function (e)
 			Reset();
 		}
 	}
-	keysDown[e.keyCode] = true;
 }, false);
 
 var main = function () 
